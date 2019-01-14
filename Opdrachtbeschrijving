@@ -1,0 +1,31 @@
+Instructies
+Schrijf een PHP-script dat een gastenboek implementeert voor sporters en fans van de sport (fans zijn geen beoefenaars). De ingevoerde gegevens worden opgeslagen in de database "dbLOI" (maak deze aan mbv PHPMyAdmin). De gastenboektabel bestaat uit de volgende gegevens:
+ID (INT, AUTO_INCREMENT, PRIMARY KEY, NOT NULL)
+Naam (50 karakters, NOT NULL)
+Boodschap (TEKST, NOT NULL)
+Datum (datetime)
+Sport (30 karakters)
+Beoefenaar (BOOLEAN, default FALSE)
+
+De inhoud van het gastenboek moet op het scherm worden getoond.
+
+Uw uitwerking moet aan de volgende voorwaarden voldoen:
+
+Welgevormde HTML-structuur.
+Geef het programma de titel "Inzendopdracht 051R4".
+Zorg voor een nette en duidelijke lay-out.
+Het veld "sport" kan alleen de waarden tennis, voetbal, running, tafeltennis, squash, wielrennen en boksen bevatten. De gebruiker moet via een selectieveld de sport kiezen.
+Het veld "beoefenaar" kan alleen de waarden TRUE en FALSE hebben en moet worden getoond via een keuzerondje.
+De inhoud van het gastenboek moet worden getoond met het meest recente bericht bovenaan.
+Geef op het scherm aan dat het om de inhoud van een gastenboek gaat.
+Het ID van het bericht mag niet worden getoond.
+Nadat een item in het gastenboek is ingevoerd, moet dat direct worden getoond. Tip: zie http://php.net/manual/en/function.header.php.
+Het gastenboek moet een optie bevatten om een nieuw bericht aan te kunnen maken. Tip: zet deze optie bovenaan of naast de inhoud van het gastenboek. Als u de optie onderaan zet, valt deze van het scherm als er veel berichten zijn.
+Maak drie PHP-bestanden: één voor de invoer en de verwerking, één voor het tonen van de gegevens en één voor de connectie met de database. Het invulformulier en de inhoud van het gastenboek worden dus op twee verschillende pagina’s in de browser getoond.
+Gebruik labels om aan te geven wat er in de in te vullen velden moet worden ingevuld.
+Toon een foutmelding als de gebruiker niet alle verplichte velden heeft ingevoerd. Geef duidelijk aan welk veld de gebruiker vergeten is om in te vullen.
+Voeg een tijdsaspect toe.
+Zorg voor foutafhandeling als de verbinding met de server of de database niet tot stand kan worden gebracht.
+Ingevoerde returns bij het invoeren van een bericht moeten ook als zodanig in het gastenboek op het scherm worden getoond.
+Als er nog geen berichten in het gastenboek staan, toon dan de melding "Er is nog geen bericht in het gastenboek geplaatst".
+Zorg ervoor dat uw code geen afhankelijkheid bevat waardoor deze op een andere server niet werkt.
